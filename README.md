@@ -21,22 +21,22 @@ The script is also expecting Account1.txt, Account2.txt, etc, in the same direct
 
 GETTING STARTED
 ==================================
-When running the script for the first time, you can run:
+When running the script for the first time, you can run:  
 python bulk_mgmt.py build
 
 This will build those account text files for you, for all of the accounts given in settings.ini.
-The files will be output as Account1_map.txt, Account2_map.txt, etc.
+The files will be output as Account1_map.txt, Account2_map.txt, etc.  
 
 USAGE
 ===========================================
-The script is expecting accounts to be passed as arguments, lets say you have Account1 to Account10. Users were updated for Account2 and Account8, and you want to only update Account2 and Account8. 
-You would run:
-python bulk_mgmt.py Account2 Account8
-
-**note:** Account labels in settings.ini, Accounts.txt, and Accounts being passed as arguments are all case sensitive.
+The script is expecting accounts to be passed as arguments, lets say you have Account1 to Account10. Users were updated for Account2 and Account8, and you want to only update Account2 and Account8.    
+You would run:  
+python bulk_mgmt.py Account2 Account8  
+  
+**note:** Account labels in settings.ini, Accounts.txt, and Accounts being passed as arguments are all case sensitive.  
 
 AUDITING
 ============================================
-The script will output a Account1_prev_state.txt, incase a file was processed accidentally, so you can always restore the previous state of your accounts.
-
-An Account1_trail.txt will be outputted as well, to show you what changes have been made to each account.
+The script will output a Account1_prev_state.txt, incase a file was processed accidentally, so you can always restore the previous state of your accounts.  
+  
+An Account1_trail.txt will be outputted as well, to show you what changes have been made to each account.  
