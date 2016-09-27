@@ -1,7 +1,5 @@
 # LE-Bulk_User_Mgmt
 
-README:
-
 The Bulk User Management script was created to help users manage their different Logentries accounts, it serves as a CLI replacement for the UI. Each account will be controlled by a text file, with the text file acting as a current state of the account. If a user is added to the text file, that user will be added from the account, if a user is removed from the text file, that user will be removed from the account.
 
 REQUIREMENTS
