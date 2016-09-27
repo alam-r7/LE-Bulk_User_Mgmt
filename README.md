@@ -7,7 +7,7 @@ REQUIREMENTS
 It is expecting a file called settings.ini in the same directory as the script.  
 
 The settings.ini file is expected to be formatted in the following manner, with each stanza representing a separate account:  
-[Account1]   <---- Account label  
+[Account1]   
 api-key-id = $API_KEY_ID  
 api-key = $API_KEY  
 resource-id = $RESOURCE_ID  
