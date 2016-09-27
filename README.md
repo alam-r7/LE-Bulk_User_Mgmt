@@ -33,7 +33,7 @@ The script is expecting accounts to be passed as arguments, lets say you have Ac
 You would run:
 python bulk_mgmt.py Account2 Account8
 
-**note**, Account labels in settings.ini, Accounts.txt, and Accounts being passed as arguments are all case sensitive.
+**note:** Account labels in settings.ini, Accounts.txt, and Accounts being passed as arguments are all case sensitive.
 
 AUDITING
 ============================================
