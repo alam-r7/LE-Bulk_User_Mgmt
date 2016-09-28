@@ -24,7 +24,7 @@ resource-id = $RESOURCE_ID
 
 To get your API keys/Resource ID:
 ![Screenshot](https://github.com/alam-r7/LE-Bulk_User_Mgmt/blob/master/doc/Step%201%20-%20Getting%20API%20Keys.png?raw=true)
-**Note:** API_KEY_ID is only displayed when the API Key is first generated
+**Note:** Your API Key is only displayed when the API Key is first generated
 
 Getting Started
 ==================================
