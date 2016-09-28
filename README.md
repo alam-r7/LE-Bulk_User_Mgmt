@@ -4,7 +4,7 @@ The Bulk User Management script was created to help users manage their different
 
 Requirements
 ===================
-It is expecting a file called settings.ini in the same directory as the script.  
+The script is expecting a file called settings.ini in the same directory as the script.  
 
 The settings.ini file is expected to be formatted in the following manner, with each stanza representing a separate account:  
 [Your_Account1] <--- Alter the labels to reflect your account name   
