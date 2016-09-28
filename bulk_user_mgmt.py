@@ -108,14 +108,16 @@ def get_users(account_map, accounts_info, current_account):
         filename = str(current_account) + ".txt"
         with open(filename) as file:
             text_users = file.read().splitlines()
+            success = 1
     except IOError:
         print 'Error while reading text file: %s' % filename
-    try:
-        with open("%s_prev_state.txt" % current_account, 'w') as file:
-                for user in text_users:
-                    file.write("%s\n" % str(user))
-    except IOError:
-        print 'Error creating previous state file: %s_prev_state.txt' % current_account
+    if success == 1:
+        try:
+            with open("%s_prev_state.txt" % current_account, 'w') as file:
+                    for user in text_users:
+                        file.write("%s\n" % str(user))
+        except IOError:
+            print 'Error creating previous state file: %s_prev_state.txt' % current_account
     return text_users
 
 def comparator(account_map, text_users, users_in_cur_account):
