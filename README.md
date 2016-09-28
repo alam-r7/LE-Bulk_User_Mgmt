@@ -28,12 +28,13 @@ To get your API keys/Resource ID:
 
 Getting Started
 ==================================
-After you've created settings.ini with all of the accounts that you're hoping to manage via CLI.
+After you've created settings.ini with all of the accounts that you're hoping to manage via CLI.  
 You can run:  
 python bulk_user_mgmt.py build
 
 This will build text files for you, with the current list of users for each account, for the accounts given in settings.ini.
-The files will be output as Your_Account1.txt, Your_Account2.txt, Your_Account3.txt, etc, so they can be easily modified.  
+The files will be output as Your_Account1.txt, Your_Account2.txt, Your_Account3.txt, etc, so they can be easily modified. 
+Users should be d
 
 Usage
 ===========================================
