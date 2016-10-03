@@ -8,19 +8,19 @@ The script is expecting a file called settings.ini in the same directory as the 
 
 The settings.ini file is expected to be formatted in the following manner, with each stanza representing a separate account:  
 [Your_Account1] <--- Alter the labels to reflect your account name   
-api-key-id = $API_KEY_ID  
-api-key = $API_KEY  
-resource-id = $RESOURCE_ID  
+api-key-id = $API_KEY_ID1  
+api-key = $API_KEY1  
+resource-id = $RESOURCE_ID1  
 
 [Your_Account2]    
-api-key-id = $API_KEY_ID  
-api-key = $API_KEY  
-resource-id = $RESOURCE_ID  
+api-key-id = $API_KEY_ID2  
+api-key = $API_KEY2  
+resource-id = $RESOURCE_ID2  
 
 [Your_Account3]  
-api-key-id = $API_KEY_ID  
-api-key = $API_KEY  
-resource-id = $RESOURCE_ID    
+api-key-id = $API_KEY_ID3  
+api-key = $API_KEY3  
+resource-id = $RESOURCE_ID3    
 
 To get your API keys/Resource ID:
 ![Screenshot](https://github.com/alam-r7/LE-Bulk_User_Mgmt/blob/master/doc/Step%201%20-%20Getting%20API%20Keys.png?raw=true)
